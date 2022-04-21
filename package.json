@@ -1,14 +1,14 @@
 {
-  "name": "mymortybackend",
+  "name": "mymortybackendheroku",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "Bank.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.mjs"
   },
   "keywords": [],
-  "author": "YuriiCodes",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.0",

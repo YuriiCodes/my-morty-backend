@@ -2,7 +2,6 @@ import Bank from "./Bank.js";
 
 class BankService {
     async create(bank) {
-        const {name, interestRate, maxLoan, minDownPayment, loanTerm} = req.body;
         const createdBank = await Bank.create(bank);
         return createdBank;
     }

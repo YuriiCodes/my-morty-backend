@@ -16,6 +16,9 @@ const app = express();
 app.use(express.json());
 app.use('/api', router);
 
+app.get('/', (req, res) => {
+    res.json({message:"Welcome to MyMorty api! To see banks info go to /api/banks, or visit https://github.com/YuriiCodes/my-morty-backend/blob/main/README.md for docs"});
+})
 
 async function startApp() {
     try {
