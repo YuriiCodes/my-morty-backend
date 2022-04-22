@@ -1,4 +1,8 @@
 # Welcome to MyMorty api!
+The back end part of MyMorty is built using `express.js` and  `mongoDB`. The server is hosted on `heroku`, mongo database is hosted on `mongoDB cloud`.
+
+## Api docs
+
 https://my-morty-backend.herokuapp.com/,
 http://localhost:8000/ (if started locally)
 
